@@ -68,3 +68,6 @@ xcuserdata/
 # Hive related
 *.hive
 *.lock
+
+# Logs and temporary analysis files
+*.txt
