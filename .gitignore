@@ -1,0 +1,70 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch.json and tasks.json with post-checkout
+# hooks which are useful for development.
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Android Studio will use this to store local configuration
+.cxx/
+.externalNativeBuild/
+.gradle/
+android/app/src/main/res/values/strings.xml
+local.properties
+
+# iOS/XCode related
+**/ios/Flutter/Generated.xcconfig
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/ServiceDefinitions.json
+**/ios/Runner/GeneratedPluginRegistrant.[mh]
+**/ios/Runner/info.plist
+**/Pods/
+DerivedData/
+Runner.xcworkspace/
+xcuserdata/
+
+# macOS related
+**/macos/Flutter/ephemeral/
+**/macos/Pods/
+
+# Windows related
+**/windows/flutter/ephemeral/
+
+# Linux related
+**/linux/flutter/ephemeral/
+
+# Hive related
+*.hive
+*.lock
